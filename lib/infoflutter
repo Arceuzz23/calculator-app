@@ -1,0 +1,177 @@
+    /*body: Center(
+            //this below commented code is for adding a body center text with style
+            /* child: Text('hello niggas!!',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2.5,
+              fontSize: 69.0,
+              color: Color.fromARGB(255, 255, 145, 11),                            
+                )
+                */
+
+            //this is one way of inserting image
+            /*child: Image(
+            image: NetworkImage(
+              'https://images.unsplash.com/photo-1534175319468-18560d40484b?auto=format&fit=crop&q=80&w=987&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),*/
+            //this is 2nd way of inserting image
+            //child: Image(image: AssetImage('assets/image3.jpg')),
+            //this is 3rd way of inserting image
+            //child: Image.asset('assets/image1.jpg'),
+            //below code is for inserting an icon
+            /* child: Icon(
+          Icons.airport_shuttle,
+          color: Color.fromARGB(255, 40, 12, 255),
+          size: 69.0,*/
+            /* child: ElevatedButton(
+          onPressed: () {},
+        
+          child: Text('click me'),
+        )*/
+            /*child: TextButton(
+          onPressed: () {
+            print('why ya clikin me?? nigga!!');
+          },
+          child: Text('click me ya cunt!'),
+        )*/
+            /* child: ElevatedButton.icon(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.mail,
+                ),
+                label: Text('mail me'),
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.amber,
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                    textStyle: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'DancingScript',
+                    )))*/
+
+            child: IconButton(
+          onPressed: () {
+            print('clicked me! ');
+          },
+          icon: Icon(Icons.alternate_email),
+          color: Colors.amber,
+        )),*/
+    /* body: Container(
+          //padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          //padding: EdgeInsets.all(20.0),
+          padding: EdgeInsets.fromLTRB(10, 20, 30, 40),
+          margin: EdgeInsets.all(30),
+          //padding is inside the container
+          //margin is around the container
+          color: Colors.grey[400],
+          child: Text('hello!'),
+        ),*/
+    /* body:const Padding(
+          child: Text('hello'),
+          padding: EdgeInsets.all(90.0),
+        ), */
+    //Below code for row widgets
+    /*  body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text('hello world'),
+            TextButton(
+                onPressed: () {},
+                child: Text('click me'),
+                style: TextButton.styleFrom(
+                    backgroundColor: Colors.amber,
+                    textStyle: TextStyle(
+                      fontSize: 30,
+                      color: Color.fromARGB(255, 253, 253, 253),
+                      fontFamily: 'IndieFlower',
+                    ))),
+            Container(
+              color: Colors.cyan,
+              padding: EdgeInsets.all(30),
+              child: Text('inside container'),
+            ),
+          ],
+        ),*/
+    /* body: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Container(
+                      padding: EdgeInsets.all(20.0),
+                      color: Colors.cyan,
+                      child: Text(
+                        'a r y a n',
+                      )),
+                  Text('hello bruuh!'),
+                  Text('BPGC'),
+                ],
+              ),
+              Container(
+                  padding: const EdgeInsets.all(20.0),
+                  color: Colors.cyan,
+                  child: Text(
+                    'one',
+                  )),
+              Container(
+                  padding: EdgeInsets.all(69.0),
+                  color: Colors.cyan,
+                  child: Text(
+                    'one',
+                  )),
+              Container(
+                  padding: EdgeInsets.all(40.0),
+                  color: Colors.cyan,
+                  child: Text(
+                    'one',
+                  ))
+            ]),*/
+
+    //EXPANDED WIDGET:
+    /*  body: Row(
+          children: <Widget>[
+            Expanded(
+              child: Image.asset('assets/image1.jpg'),
+              flex: 3,
+            ),
+            Expanded(
+              flex: 3,
+              child: Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.amber,
+                child: Text('1'),
+              ),
+            ),
+            Expanded(
+              flex: 2,
+              child: Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.cyan,
+                child: Text('2'),
+              ),
+            ),
+            Expanded(
+              flex: 1,
+              child: Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.green,
+                child: Text('3'),
+              ),
+            )
+          ],
+        ),*/
+    //FLOATING ACTION BUTTON:
+    /* floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          backgroundColor: const Color.fromARGB(255, 255, 96, 94),
+          child: const Text(
+            'click me',
+            style: TextStyle(
+              fontFamily: 'DancingScript',
+              fontWeight: FontWeight.bold,
+              color: Color.fromARGB(255, 0, 0, 0),
+            ),
+          ),
+        )*/
